@@ -13,7 +13,7 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/portfolio/" element={<Homepage />} />
+				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
