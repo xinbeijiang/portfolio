@@ -4,10 +4,11 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
 	faGithub,
 	faLinkedin,
+	faMarkdown
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
-
+import XinbeiResume from '../../assets/docs/Xinbei_Resume.docx'
 import "./styles/socials.css";
 
 const Socials = () => {
@@ -40,7 +41,17 @@ const Socials = () => {
 					<div className="social-text">Connect on LinkedIn</div>
 				</a>
 			</div>
+			<div className="social">
+					<a
+						href={XinbeiResume} download="xinbei_resume.docx" target='_blank' rel="noreferrer"
+					>
+						<div className="social-icon">
+							<FontAwesomeIcon icon={faMarkdown} />
+						</div>
 
+						<div className="social-text">{INFO.main.resume}</div>
+					</a>
+			</div>
 			<div className="email">
 				<div className="email-wrapper">
 					<a
@@ -56,6 +67,9 @@ const Socials = () => {
 					</a>
 				</div>
 			</div>
+
+
+
 		</div>
 	);
 };

@@ -13,18 +13,14 @@ const About = () => {
     const codedDescription = (
         <span>
             <p className="mb-4">
-			<span className="text-2xl">G</span>raduated with a background in data from the University of Tasmania, with experience in Python and knowledge of Bash and PowerShell. 
-			Familiar with Cloud platform, having completed the AWS Cloud Practitioner course and planning to take the certification exam. 
+			<span className="text-2xl">G</span>raduated with a background in data from the University of Tasmania, with experience in Python, SQL and PowerShell. AWS Certified Cloud Practitioner with a strong interest in cloud computing, actively expanding my technical expertise.
             </p>
 
             <p className="mb-4">
-                Beyond my professional pursuits, I am an avid endurance athlete, chef, reader, home improvement DIYer, Bitcoiner, and 
-                sports fan. These varied interests not only fuel my personal growth but also contribute to my well-rounded 
-                perspective and a relentless desire to learn.
+			Beyond my professional pursuits, I have a passion for exploring culinary creations, a love for animals, a deep appreciation for music, a keen interest in sports, and enjoy immersing myself in novels. These diverse interests fuel my personal growth and shape my well-rounded perspective, reinforcing my passion for learning and innovation.
             </p>
             <p>
-			Also, I am passionate about technology and its potential to drive positive change. I thrive in collaborative environments,
-			My ability to adapt to new technologies and environments enables me to quickly learn and tackle complex problems, making me eager to grow within the Cloud and IT sector.
+			I am deeply interested in technology and its ability to drive positive change. Thriving in collaborative environments, I embrace new challenges and adapt quickly to emerging technologies, equipping me to solve complex problems and grow within the Cloud and IT sector.
             </p>
         </span>
     )

@@ -10,7 +10,7 @@ import {
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import INFO from "../data/user";
-import demo from '../assets/img/demo.JPG';
+import demo from '../assets/img/demo.jpg';
 
 
 import "./styles/homepage.css";
@@ -19,14 +19,14 @@ const Homepage = () => {
 
     const codedDescription = (
         <span>
-            A coding curiosity in late 2024 quickly evolved into a passion. While my current specialty lies in <strong>ETL T-SQL</strong>, 
-            I actively explore various technologies to expand my skill set and build a diverse array of projects.
+		A curiosity for coding in 2023 quickly grew into a passion. While my current focus is on <strong>ETL T-SQL</strong>, 
+        I continuously explore new technologies to expand my skill set and work on diverse projects.
         </span>
     )
 
     const codedTitle = (
         <span>
-			A proactive and motivated data engineer practitioner, gained from years extensive projects and working experience.
+		A proactive and motivated tech enthusiast with hands-on experience in Python, SQL, and cloud technologies.
         </span>
     )
 

@@ -4,6 +4,7 @@ const INFO = {
 		name: "Xinbei Jiang",
 		email: "beibeijiang009@gmail.com",
 		logo: "../headshot.jpg",
+		resume:"Xinbei_Resume.docx",
 	},
 
 	socials: {
